@@ -1,24 +1,24 @@
 
  const Data = [
     {id:"1",
-        question: "Confucius",
-        answer: "It does not matter how slowly you go as long as you do not stop."
+        question: " What is JSX ?",
+        answer: "JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code."
     },
     {id:"2",
-        question: "Samuel Beckett",
-        answer: "Ever tried. Ever failed. No matter. Try Again. Fail again. Fail better."
+        question: "What is the virtual DOM ?",
+        answer: "DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects."
     },
     {id:"3",
-        question: "Nelson Mandela",
-        answer: "It always seems impossible until it’s done."
+        question: "What are the components in React ?",
+        answer: "Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately."
     },
     {id:"4",
-        question: "St. Jerome",
-        answer: "Good, better, best. Never let it rest. ‘Til your good is better and your better is best."
+        question: "What is a state in React ?",
+        answer: "The state is a built-in React object that is used to contain data or information about the component. The state in a component can change over time, and whenever it changes, the component re-renders. The change in state can happen as a response to user action or system-generated events. It determines the behavior of the component and how it will render."
     },
     {id:"5",
-        question: "George S. Patton",
-        answer: "A good plan violently executed now is better than a perfect plan executed next week"
+        question: "What are props in React ?",
+        answer: "Props are short for Properties. It is a React built-in object that stores the value of attributes of a tag and works similarly to HTML attributes. Props provide a way to pass data from one component to another component. Props are passed to the component in the same way as arguments are passed in a function"
     },
 
 ]
